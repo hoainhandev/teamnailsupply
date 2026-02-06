@@ -1,0 +1,10 @@
+name = "kol-portal"
+main = ".open-next/worker.js"
+compatibility_date = "2025-01-01"
+
+# (khuyến nghị) Node.js compatibility cho bcryptjs, v.v.
+compatibility_flags = ["nodejs_compat"]
+
+[[r2_buckets]]
+binding = "NEXT_INC_CACHE_R2_BUCKET"
+bucket_name = "kol-portal-cache"
