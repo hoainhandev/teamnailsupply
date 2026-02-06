@@ -47,7 +47,7 @@ export default function LoginForm() {
           <form onSubmit={onSubmit} className="space-y-4">
             <div className="space-y-2">
               <Label>KOL ID</Label>
-              <Input value={kolId} onChange={(e) => setKolId(e.target.value)} placeholder="hoaitam" />
+              <Input value={kolId} onChange={(e) => setKolId(e.target.value)} />
             </div>
             <div className="space-y-2">
               <Label>Password</Label>
